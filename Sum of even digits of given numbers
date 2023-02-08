@@ -8,16 +8,9 @@ int main()
  scanf("%d",&n);
  while(n!=0)
  {
-  a=n%10;
- if (a%2==0)
- {
+  a = n % 10;
   sum = sum + a;
- }
- else
- {
-  sum = sum +0;
- }
-  n=n/10;
+  n=n/100;
  }
   printf("Sum of even digit is %d",sum);
 }
